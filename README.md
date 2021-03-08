@@ -15,8 +15,8 @@ Requires:
   * paho-mqtt  
 
 Steps to use:
-1. run `$ python3 calibrate_eyes_ON.py -c`. When ready, press enter and look around at your computer screen until the program finishes (about 15 seconds).
-2. run `$ python3 calibrate_eyes_OFF.py -c`. When ready, press enter and look around away from your computer screen until the program finishes (about 15 seconds).
-3. run `$ python3 train_model.py` to train the ON/OFF screen binary classifier on the data you just generated.
-4. run `$ python3 eye-strain-alerter.py` to start the alert system software. 
-5. run `$ python3 eye-monitor.py -c` to start the camera stream that monitors your gaze using the binary classifier.
+1. `$ python3 calibrate_eyes_ON.py -c`. When ready, press enter and look around at your computer screen until the program finishes (about 15 seconds).
+2. `$ python3 calibrate_eyes_OFF.py -c`. When ready, press enter and look around away from your computer screen until the program finishes (about 15 seconds).
+3. `$ python3 train_model.py` to train the ON/OFF screen binary classifier on the data you just generated.
+4. `$ python3 eye-strain-alerter.py` to start the alert system software. 
+5. `$ python3 eye-monitor.py -c` to start the camera stream that monitors your gaze using the binary classifier.
