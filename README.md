@@ -12,8 +12,9 @@ Requires:
   * MQTT server running on port 30300 (can be reconfigured)  
 * Python Libraries:  
   * depthai
-  * opencv
-  * paho-mqtt  
+  * cv2
+  * paho-mqtt
+  * sklearn
 
 Steps to use:
 1. `$ python3 calibrate_eyes_ON.py -c`. When ready, press enter and look around at your computer screen until the program finishes (about 15 seconds).
