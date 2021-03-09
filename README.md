@@ -11,9 +11,10 @@ Requires:
 * Infrastructure:
   * MQTT server running on port 30300 (can be reconfigured)  
 * Python Libraries:  
-  * depthai
   * cv2
+  * depthai
   * paho-mqtt
+  * pandas
   * sklearn
 
 Steps to use:
